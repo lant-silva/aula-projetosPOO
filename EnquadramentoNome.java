@@ -1,7 +1,7 @@
 /* Data: 17/08/2023
 *  Esse código cria um pequeno retangulo ao redor de um nome
 *  Criado para ser escalável com nomes pequenos ou grandes
-*/
+*/ by: lant-silva
 import java.util.Scanner;
 public class Inicio {
 	public static void main(String[] args) {
