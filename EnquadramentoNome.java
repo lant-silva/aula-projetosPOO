@@ -26,8 +26,6 @@ public class Inicio {
 			linha += "#";
 		}
 		
-		System.out.println("la vem a magica :D");
-		
 		System.out.println(linha);
 		System.out.println(nome);
 		System.out.println(linha);
