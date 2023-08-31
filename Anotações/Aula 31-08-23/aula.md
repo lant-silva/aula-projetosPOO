@@ -16,7 +16,7 @@ Em um construtor, talvez possa ser necessario aplicar o this, caso a variavel de
 
 - Toda vez que um objeto é criado ao menos 1 construtor é executado.
 
-- Mesmo que não exista um construtor declarado explicitamente na classe, o compilador cria um automaticamente
+- Mesmo que não exista um construtor declarado explicitamente na classe, o compilador cria um bbautomaticamente
 
 ### Dependencias
 
@@ -25,3 +25,8 @@ Uma classe pode ter dois tipos de associação, agregação ou composição
 - Agregação: Agrega em uma classe, mudanças públicas podem ser realizadas numa agregação
 
 - Composição: Faz parte de uma classe, mudanças pública não podem ser realizadas numa composição, portanto, é possivel que uma classe tenha uma dependencia dessa composição, que significa que a classe não funcionará corretamente sem a composição
+
+### Herança
+
+Uma classe que possui uma herança recebe todos os atributos da sua superclasse, ou a classe que herdou
+
