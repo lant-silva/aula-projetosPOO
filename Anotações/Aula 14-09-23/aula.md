@@ -1,6 +1,14 @@
 # Programação Orientada a Objetos
 
-## Cadeia de Construtores
+Tópicos de hoje
+
+- ![Cadeia de Construtores](#t1)
+
+- ![Polimorfismo](#t2)
+
+
+
+## Cadeia de Construtores {#t1}
 
 Quando uma instância é criada, o construtor da class é invocado.
 
@@ -26,7 +34,7 @@ Um construtor pode chamar outro construtor abaixo dele na mesma classe usando o 
 
 O primeiro construtor em uma classe, caso não tenha super() ou this(), receberá, automaticamente, um super() na primeira linha do construtor
 
-## Polimorfismo
+## Polimorfismo {#t2}
 
 ### Coerção
 
@@ -67,3 +75,42 @@ Exemplo: Uma classe Humano com comportamento dormir() e falar() que herda dormir
 A parametrização constrasta com o ad-hoc pois neste último existe um conjunto de métods criados para trabalhar com tipos diferentes.
 
 Já o paramétrico permite a criação de um único método genérico que pode ser utilizado para diversos tipos
+
+## Modificadores de Acesso
+
+Existem 4 modificadores de acesso
+
+- default (package)
+
+- public
+
+- private
+
+- protected
+
+### Default
+
+Modificador padrão do Java, dinaliza a classe ou o membro que o acesso só pode ser feito por classes que pertençam ao mesmo package
+
+- Pode ser usado em classes, métodos e variáveis de instância
+
+Porque usamos o package?
+
+- O uso do package assegura que a classe não pode ser manipulada por outras classes fora do pacote
+
+- Por exemplo: Uma classe chamada Criptografia que contém métodos e variáveis necessários a um sistema de segurança.
+
+### Public
+
+O modificador public indica que todas as outras classes, independente do pacote em que estejam, pode acessar essa classe ou esse membro, assimindo é claro que a classe onde o membro se encontra esteja visivel para a classe que vai acessá-lo
+
+### Private
+
+O private demarca o elemento como privado, ou seja, apenas os métodos internos da classe podem acessar os elementos marcados como private.
+
+- Somente pode ser usado em métodos e variáveis de instância
+
+### Protected
+
+
+
