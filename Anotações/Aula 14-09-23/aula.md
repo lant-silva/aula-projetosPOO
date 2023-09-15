@@ -110,7 +110,15 @@ O private demarca o elemento como privado, ou seja, apenas os métodos internos 
 
 - Somente pode ser usado em métodos e variáveis de instância
 
+Um membro private não é transmitido através da herança. Ou seja, ao tentar usar um método ou variável que está na superclases, ocorrerá erro de compilação
+
 ### Protected
+
+O protected sinaliza a que o membro somente pode ser acessado por classes que pertençam ao mesmo package ou através da herança, mesmo que a classe pertença a outro package
+
+- Pode ser usado em métodos e variáveis de instância
+
+Geral:
 
 
 
